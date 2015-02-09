@@ -1,0 +1,25 @@
+﻿body {
+}
+
+div {
+    border: 2px solid black;
+    width: 700px;
+    margin-bottom: 10px;
+    background-color: #20c47e;
+    word-wrap: break-word;
+}
+
+#group {
+    background-color: #00ff90;
+    border: none;
+}
+
+#averagePrice {
+    background-color: #ff6a00;
+    border: none;
+}
+
+#byPriceLanguage {
+    background-color: #ff0000;
+    border: none;
+}

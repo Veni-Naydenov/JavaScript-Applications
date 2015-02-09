@@ -1,0 +1,52 @@
+﻿body {
+}
+
+input[type="radio"] {
+    margin-left: 10px;
+    width: 15px;
+    height: 20px;
+}
+div#sign{
+    background-color:#000;
+    color:#fff;
+    width:150px;
+    text-align:right;
+    font-size:25px;
+    padding-right:10px;
+    font-style:italic;
+}
+ul li{
+    background-color:#ff6a00;
+    width:450px;
+    list-style:decimal;
+    color:#0d1164;
+}
+ul li:nth-child(2n+1) {
+    background-color:#f2b21a;
+}
+ul li form{
+    background-color:#a69cb4;
+    color:#240512;
+}
+p.final {
+    background-color: #0ff;
+    width: 450px;
+    border: 1px solid #0d1164;
+    padding: 5px;
+}
+
+p.correct {
+    background-color: #00ff21;
+    width: 350px;
+    border: 1px solid #0d1164;
+    padding: 5px;
+}
+
+div#timer{
+    height:20px;
+    text-align:center;
+    font-size:3.5em;
+    color:#f00;
+
+
+}

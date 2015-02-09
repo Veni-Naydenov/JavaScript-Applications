@@ -1,0 +1,32 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>02.List Countries</title>
+    
+    <script src="../jQuery/jquery-1.11.1.js"></script>
+    <script src="../jQuery/jquery.noty.packaged.min.js"></script>
+    <link href="styles.css" rel="stylesheet" />
+</head>
+<body>
+    <h2>Countries<a href="#" id="addButton"> [Add new country]</a></h2>
+    
+    <form id="editForm" style="display:none">
+        <input type="text" id="editCountry" />
+        <input type="submit" id="submitChange" value="Edit" />
+    </form>
+    <form id="addForm" style="display:none">
+        <input type="text" id="addCountry" />
+        <input type="submit" id="addNewCountry" value="Add" />
+    </form>
+    
+    <ul id="countries">
+    </ul>
+
+    <div id="towns" style="display: none">
+        <h2 id="town">Towns</h2>
+        <ul>
+        </ul>
+    </div>
+    <script src="listCountries.js"></script>
+</body>
+</html>

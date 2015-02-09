@@ -1,0 +1,49 @@
+﻿body {
+    background-color:#998b9d;
+}
+
+button {
+    background-color: #ffd800;
+    color: #000000;
+    font-weight: bold;
+    float: right;
+}
+
+    button:hover {
+        background-color: #000000;
+        color: #fff;
+    }
+
+ul li {
+    margin-bottom: 5px;
+    padding: 3px;
+    height: 20px;
+    width: 300px;
+    background-color: #afc2a3;
+}
+
+ul#countries li {
+    color: #ff0000;
+    background-color: #b6ffd0;
+    border: 1px solid #0b1585;
+}
+
+    ul#countries li a:first-child {
+        color: #09450e;
+        font-size: 1.1em;
+        font-weight: bold;
+    }
+
+        ul#countries li a:first-child:hover {
+            color: #46087d;
+            font-size: 1.2em;
+            font-weight: bold;
+            font-style: italic;
+        }
+
+a.editBtn {
+    color: #0094ff;
+    display: inline-block;
+    float: left;
+    padding-right: 15px;
+}

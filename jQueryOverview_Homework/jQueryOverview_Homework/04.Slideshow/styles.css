@@ -1,0 +1,48 @@
+﻿body {
+    background-color: #808080;
+}
+
+div#slide-container {
+    width: 500px;
+    height: 500px;
+    margin-left: 150px;
+    background-color: #0094ff;
+}
+
+div#current-slide {
+    width: 400px;
+    height: 400px;
+    margin: 20px auto;
+    background-color: #ebdceb;
+    border: 5px solid #0b4062;
+}
+
+img {
+    width: 400px;
+    height: 400px;
+}
+
+div#btns {
+    text-align: center;
+    width: 100%;
+    padding-top: 20px;
+}
+
+button {
+    background-color: #00ff21;
+}
+
+    button#prev-button {
+        margin-right: 20px;
+    }
+
+    button#next-button {
+    }
+
+div#slide-container p#line {
+    text-align: center;
+    height: 20px;
+    margin-top: -15px;
+    font-size: 25px;
+    color: yellow;
+}

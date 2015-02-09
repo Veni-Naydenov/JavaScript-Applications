@@ -1,0 +1,12 @@
+﻿body {
+     background-color: #cecee0;
+}
+
+div.log {
+    width: 300px;
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    font-size: 1.5em;
+    font-weight: bold;
+}

@@ -1,0 +1,15 @@
+﻿table {
+    margin: 20px 20px;
+    border: 2px solid black;
+    border-collapse: collapse;
+}
+
+    table thead tr th {
+        border: 1px solid #ff6a00;
+        background-color: #b6ff00;
+    }
+
+    table tr td {
+        border: 1px solid #f00;
+        padding: 10px;
+    }

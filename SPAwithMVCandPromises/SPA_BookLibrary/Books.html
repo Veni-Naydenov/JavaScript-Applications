@@ -1,0 +1,45 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Book librery</title>
+    <script src="jQuery/jquery-2.1.1.js"></script>
+    <script src="jQuery/jquery.noty.packaged.min.js"></script>
+    <script src="jQuery/q.js"></script>
+    <link href="styles.css" rel="stylesheet" />
+</head>
+<body>
+     <form id="editForm" style="display: none">
+        <input type="text" id="editBook" />
+        <input type="submit" id="submitChange" value="Edit" />
+    </form>
+    <form id="addForm" style="display: none">
+        <input type="text" id="addTitle" required="required" />
+        <input type="text" id="addAuthor" required="required" />
+        <input type="text" id="addIsbn" required="required" />
+        <input type="button" id="add" value="Add book" />
+    </form>
+    <table id="library">
+        <thead>
+            <tr>
+                <th>Delete book</th>
+                <th>Book Title</th>
+                <th>Book Author</th>
+                <th>Book isbn</th>
+            </tr>
+        </thead>
+
+        <tfoot>
+            <tr>
+                <td colspan="4">
+                    <button id="addNewBook">Add New Book</button>
+                </td>
+            </tr>
+        </tfoot>
+    </table>
+
+    <script src="requester.js"></script>
+    <script src="data-persister.js"></script>
+    <script src="controller.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>

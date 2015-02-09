@@ -1,0 +1,16 @@
+﻿body {
+}
+
+div{
+    border:2px solid black;
+    width:500px;
+    margin-bottom:10px;
+    background-color:#ff6a00;
+  word-wrap:break-word;
+
+}
+div:first-line{
+    background-color:#00ff21;
+    font-weight:bold;
+    font-size:1.5em;
+}
